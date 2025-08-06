@@ -72,6 +72,8 @@
 			<version>2.18.0</version>
 		</dependency>
 
+
+		<!--Just update-->
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
 			<groupId>com.aventstack</groupId>
@@ -98,7 +100,7 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.5.2</version>
 					<configuration>
-						<suiteXmlFiles>src/main/java/test/${fileName}.java</suiteXmlFiles>
+						<suiteXmlFiles>TestRunner/${SuiteName}.java</suiteXmlFiles>
 					</configuration>
 				</plugin>
 			</plugins>
